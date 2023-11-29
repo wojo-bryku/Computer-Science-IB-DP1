@@ -13,7 +13,7 @@ public class AvgExam{
         System.out.println("Enter your third exam score: ");
         double score3 = scanner.nextDouble();
 
-        double avg = calculateAvg(score1, score2, score3);
+        double avg = (score1 + score2 + score3) / 3;
 
         System.out.println("Your average is: " + avg);
     }
