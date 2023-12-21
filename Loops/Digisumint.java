@@ -13,7 +13,7 @@ public class Digisumint {
         int amd = 0; // amd - ammout of all digits
         while(0 != num)
         {
-            num %= 10;
+            num %= 10; //not working
             amd++;
         }
 
