@@ -9,7 +9,7 @@ public class Reverse
         System.out.println("Enter number"); //prompt user
         int num = reader.nextInt(); //read input
 
-        //reader.close(); //closing scanner - saving memory
+        reader.close(); //closing scanner - saving memory
 
         int reverse = 0;
         while(num != 0)
