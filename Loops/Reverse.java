@@ -1,4 +1,4 @@
-import java.Util.scanner
+import java.util.scanner;
 
 public class Reverse
 {
