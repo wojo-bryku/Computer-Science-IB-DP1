@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex10test {
+public class Ex11test {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of terms: ");
