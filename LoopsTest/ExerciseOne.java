@@ -11,10 +11,12 @@ public class ExerciseOne{
         
         for(int i = 1; i <= num; i++)
         {
-            if(i % 2 == 0){
+            if(i % 2 == 0)
+            {
                 sum -= i;
             }
-            else{
+            else
+            {
                 sum += i;
             }
         }
