@@ -31,11 +31,11 @@ public class ExerciseFive{
         }
         else if (odd == num)
         {
-            System.out.println(num + "- the number consists of all odd numbers");
+            System.out.println(num + " - the number consists of all odd numbers");
         }
         else
         {
-            System.out.println(num + "- the number consists of both even and odd numbers");
+            System.out.println(num + " - the number consists of both even and odd numbers");
         }
         
        
