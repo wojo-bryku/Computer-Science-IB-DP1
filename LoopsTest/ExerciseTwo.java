@@ -39,7 +39,7 @@ public class ExerciseTwo {
         int sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
         int average = sum / 10;
         
-        System.out.println("The sum of the numbers is: " + sum + "and the average is: "+ average);
+        System.out.println("The sum of the numbers is: " + sum + " and the average is: "+ average);
         
         int largest = num1;
         int smallest = num1;
