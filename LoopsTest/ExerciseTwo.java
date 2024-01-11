@@ -44,7 +44,8 @@ public class ExerciseTwo {
         int largest = num1;
         int smallest = num1;
         int i = 1;
-        while (i < 10) {
+        while (i < 10) 
+        {
             if (num2 > largest) 
             {
                 largest = num2;
