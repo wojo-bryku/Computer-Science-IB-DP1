@@ -41,6 +41,27 @@ public class ExerciseTwo {
         
         System.out.println("The sum of the numbers is: " + sum + "and the average is: "+ average);
         
+
+        //no arrays; use while
+        int largest = num1;
+        int smallest = num1;
+        int i = 1;
+        while (i < 10) {
+            if (num2 > largest) {
+                largest = num2;
+            }
+            if (num2 < smallest) {
+                smallest = num2;
+            }
+            i++;
+        }
+        System.out.println("The largest number is: " + largest + " and the smallest number is: " + smallest);
+
+        
+
+
+
+
     }
     
 }
