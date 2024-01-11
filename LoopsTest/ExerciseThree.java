@@ -11,7 +11,8 @@ public class ExerciseThree {
 
         int factorial = 1;
         int i = 1;
-        while (i <= num) {
+        while (i <= num) 
+        {
             factorial *= i;
             i++;
         }
@@ -20,14 +21,17 @@ public class ExerciseThree {
         //the expression for calculating the product
         System.out.println("The expression for calculating the product is: ");
         int j = 1;
-        while (j <= num) {
-            if (j == num) {
+        while (j <= num) 
+        {
+            if (j == num) 
+            {
                 System.out.print(j);
-            } else {
+            } else 
+            {
                 System.out.print(j + " * ");
             }
             j++;
         }
 
     }
-}
+} 

@@ -10,7 +10,8 @@ public class ExerciseFour {
 
         int remainder;
         String binary = "";
-        while (num > 0) {
+        while (num > 0) 
+        {
             remainder = num % 2;
             binary = remainder + binary;
             num /= 2;
