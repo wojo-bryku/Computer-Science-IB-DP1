@@ -13,17 +13,17 @@ public class ExerciseFive{
         int even = 0;
         int odd = 0;
         int i = 0;
-        while (i < num) 
+        while (i < num) //loop until i is less than num
         {
-            if (i % 2 == 0) 
+            if (i % 2 == 0) //even number 
             {
-                even++;
+                even++; //increment 
             }
-            else
+            else //odd number
             {
-                odd++;
+                odd++; //increment  
             }
-            i++;
+            i++; //increment 
         }
         if (even == num)
         {
