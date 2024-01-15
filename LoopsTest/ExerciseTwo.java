@@ -41,21 +41,49 @@ public class ExerciseTwo {
         
         System.out.println("The sum of the numbers is: " + sum + " and the average is: "+ average);
         
+
+        ///The program should also display the largest and smallest numbers entered; use whie/for
+
+        
         int largest = num1;
         int smallest = num1;
-        int i = 1;
-        while (i < 10) 
-        {
-            if (num2 > largest) 
-            {
-                largest = num2;
-            }
-            if (num2 < smallest) 
-            {
-                smallest = num2;
-            }
-            i++;
+
+        if (num2 > largest) {
+            largest = num2;
         }
+        if (num3 > largest) {
+            largest = num3;
+        }
+        if (num4 > largest) {
+            largest = num4;
+        }
+        if (num5 > largest) {
+            largest = num5;
+        }
+        if (num6 > largest) {
+            largest = num6;
+        }
+        if (num7 > largest) {
+            largest = num7;
+        }
+        if (num8 > largest) {
+            largest = num8;
+        }
+        if (num9 > largest) {
+            largest = num9;
+        }
+        if (num10 > largest) {
+            largest = num10;
+        }
+
+        
+        
+
+
+
+
+
+
         System.out.println("The largest number is: " + largest + " and the smallest number is: " + smallest);
 
         
