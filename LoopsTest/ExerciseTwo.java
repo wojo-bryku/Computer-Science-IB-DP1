@@ -8,8 +8,8 @@ public class ExerciseTwo {
         ///The program should also display the largest and smallest numbers entered; use whie/fors loops
         int i = 0;
         int sum = 0;
-        int largest = 0;
-        int smallest = 0;
+        int largest = -2147483648; //smallest possible int
+        int smallest = 2147483647; //largest possible int
         int avg = 0;
         while(i<10)
         {
