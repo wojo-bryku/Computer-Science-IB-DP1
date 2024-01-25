@@ -13,11 +13,14 @@ public class Ex14 {
         System.out.println("Enter the number of rows: ");
         int r = reader.nextInt();
 
+        int count = 1;
+
         for(int i = 0; i < r; i++)
         {
             for(int j = 0; j <= i; j++)
             {
-                System.out.print(i + j + 1 + " ");
+                System.out.print(count + " ");
+                count++;
             }
             System.out.println();
             
