@@ -1,11 +1,8 @@
 //Write a program that prints the pattern below. The number of rows should depend on the user’s input.
-//*
-//* *
-//* * *
 
 import java.util.Scanner;
 
-public class Ex12 {
+public class Ex13 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
@@ -14,13 +11,14 @@ public class Ex12 {
 
         for(int i = 0; i < r; i++)
         {
-            //System.out.println(i - 1);
+            System.out.println(i + "");
             for(int j = 0; j <= i; j++)
             {
-                System.out.print(i + 1 + " ");
+                System.out.print(i + "");
             }
-            System.out.println();
             
         }
+
     }
+
 }
