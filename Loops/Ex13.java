@@ -11,11 +11,12 @@ public class Ex13 {
 
         for(int i = 0; i < r; i++)
         {
-            System.out.println(i + "");
+           
             for(int j = 0; j <= i; j++)
             {
-                System.out.print(i + "");
+                System.out.print(i + 1 + " ");
             }
+            System.out.println();
             
         }
 
