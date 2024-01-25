@@ -15,6 +15,11 @@ public class Ex12 {
         for(int i = 0; i < r; i++)
         {
             System.out.println("*");
+            for(int j = 0; j < i; j++)
+            {
+                System.out.print("*");
+            }
+            
         }
     }
 }

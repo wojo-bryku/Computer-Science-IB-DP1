@@ -28,6 +28,7 @@ public class ExerciseThree {
                 System.out.print(j);
             } else 
             {
+                
                 System.out.print(j + " * ");
             }
             j++;
