@@ -33,23 +33,23 @@ public class Ex16 {
             System.out.println();
             
         }
+        //////Exercise 16: Write a program that prints the pattern below. The number of rows should depend on the user’s input. The trunk (the base) should always be centred and should consist of two rows.
 
-        space = r - 1;
-        for(int i = 0; i < 2; i++)
+        int trunk = r / 2;
+        int trunkSpace = r - trunk;
+
+        for(int i = 0; i < trunk; i++)
         {
-            for(int j = 0; j < space; j++)
+            for(int j = 0; j < trunkSpace; j++)
             {
                 System.out.print(" ");
             }
-            space--;
-
-            for(int j = 0; j < r; j++)
+            for(int j = 0; j < 3; j++)
             {
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
             
-            //close enough; not working tho xD
         }
     }
 
