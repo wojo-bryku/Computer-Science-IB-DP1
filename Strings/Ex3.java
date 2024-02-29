@@ -11,7 +11,7 @@ public class Ex3 {
         System.out.println("Enter an innerword: ");
         String subString = reader.next();
         
-        int index = inputString.indexOf(subString);
+        int index = inputString.indexOf(subString); // returns -1 if the innerword is not found
         if(index >= 0) // if the innerword is found
             System.out.println("The innerword is at index " + index);
         else
