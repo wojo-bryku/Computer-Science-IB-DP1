@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 
-public class Exercise2 {
+public class ExerciseTwo {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     double sum = 0;

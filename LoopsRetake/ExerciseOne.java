@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class Exercise1 {
+public class ExerciseOne {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number between 1 and 9: ");
