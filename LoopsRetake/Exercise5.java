@@ -11,20 +11,27 @@ public class Exercise5 {
     int n = sc.nextInt();
     int even = 0;
     int odd = 0;
-    while (n > 0) {
+    while (n > 0) 
+    {
       int digit = n % 10;
-      if (digit % 2 == 0) {
+      if (digit % 2 == 0) 
+      {
         even++;
-      } else {
+      } 
+      else 
+      {
         odd++;
       }
       n /= 10;
     }
-    if (even == 0) {
+    if (even == 0) 
+    {
       System.out.println("All odd");
-    } else if (odd == 0) {
+    } else if (odd == 0) 
+    {
       System.out.println("All even");
-    } else {
+    } else 
+    {
       System.out.println("Mixed");
     }
 

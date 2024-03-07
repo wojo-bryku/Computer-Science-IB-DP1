@@ -10,15 +10,18 @@ public class Exercise2 {
     int count = 0;
     int max = Integer.MIN_VALUE;
     int min = Integer.MAX_VALUE;
-    while (count < 10) {
+    while (count < 10) 
+    {
       System.out.println("Enter a number: ");
       int n = sc.nextInt();
       sum += n;
       count++;
-      if (n > max) {
+      if (n > max) 
+      {
         max = n;
       }
-      if (n < min) {
+      if (n < min) 
+      {
         min = n;
       }
     }

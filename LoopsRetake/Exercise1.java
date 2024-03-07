@@ -10,10 +10,13 @@ public class Exercise1 {
         int n = sc.nextInt();
         int sum = 0;
         int product = 1;
-        for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0) {
+        for (int i = 1; i <= n; i++) 
+        {
+            if (i % 2 == 0) 
+            {
                 product *= i;
-            } else {
+            } else 
+            {
                 sum += i;
             }
         }

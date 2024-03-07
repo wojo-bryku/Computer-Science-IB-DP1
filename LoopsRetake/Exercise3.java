@@ -12,11 +12,14 @@ public class Exercise3 {
     int n = sc.nextInt();
     int product = 1;
     System.out.print(n + "! = ");
-    for (int i = n; i > 0; i--) {
+    for (int i = n; i > 0; i--) 
+    {
       product *= i;
-      if (i == 1) {
+      if (i == 1) 
+      {
         System.out.print(i);
-      } else {
+      } else 
+      {
         System.out.print(i + " * ");
       }
     }
