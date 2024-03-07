@@ -20,7 +20,7 @@ public class Exercise4 {
     }
 
 
-    System.out.println(binary);
+    System.out.println("Base2: " + binary);
 
   }
 }

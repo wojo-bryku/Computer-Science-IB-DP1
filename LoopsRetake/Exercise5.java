@@ -24,19 +24,27 @@ public class Exercise5 {
       }
       n /= 10;
     }
+
+    System.out.println(" ");
+
+
     if (even == 0) 
     {
       System.out.println("All odd");
-    } else if (odd == 0) 
+    } 
+    else if (odd == 0) 
     {
       System.out.println("All even");
-    } else 
+    } 
+    else 
     {
       System.out.println("Mixed");
     }
 
-    
+    System.out.println(" ");
     System.out.println("Even: " + even);
+    System.out.println("Odd: " + odd);
+
 
 
   }
