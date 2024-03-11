@@ -20,6 +20,30 @@ public class BinarySearch {
         // ****************************
 
         // WRITE YOUR CODE HERE <------
+        int min = 0;
+        int max = 0;
+        int mid = 0;
+        boolean found = false;
+        
+        max = myArray.length - 1;
+        while (min <= max) {
+            mid = (min + max) / 2;
+            if (myArray[mid] == target) {
+                found = true;
+                break;
+            } else if (myArray[mid] < target) {
+                min = mid + 1;
+            } else {
+                max = mid - 1;
+            }
+        }
+
+        if (found) {
+            System.out.println("Value " + target + " found at index " + mid);
+        } else {
+            System.out.println("Value " + target + " not found");
+        }
+
 
 
     }
