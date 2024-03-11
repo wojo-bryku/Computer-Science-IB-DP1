@@ -45,8 +45,13 @@ public class BinarySearch {
             System.out.println("Value " + target + " not found");
         }
 
-
-
+        // ****************************
+        // The code takes an array of integers and sorts it in ascending order. 
+        // It then prompts the user to enter a target value. 
+        // The code then uses the binary search algorithm to search for the target value in the array. 
+        // If the target value is found, the code prints the index of the target value in the array. 
+        // If the target value is not found, the code prints that the target value is not found.
+        // ****************************
     }
 
     // ****************************
