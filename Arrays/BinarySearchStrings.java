@@ -20,30 +20,6 @@ public class BinarySearchStrings {
         // ****************************
 
         // WRITE YOUR CODE HERE <------
-        int min = 0;
-        int max = 0;
-        int mid = 0;
-        boolean found = false;
-        
-        // Binary search algorithm implementation
-        max = myArray.length - 1; // max index of the array
-        while (min <= max) { // while the min index is less than or equal to the max index
-            mid = (min + max) / 2;
-            if (myArray[mid] == target) { // if the value at the mid index is equal to the target value
-                found = true;
-                break;
-            } else if (myArray[mid] < target) { // if the value at the mid index is less than the target value
-                min = mid + 1; // if the value at the mid index is less than the target value, set the min index to mid + 1
-            } else {
-                max = mid - 1; // if the value at the mid index is greater than the target value, set the max index to mid - 1
-            }
-        }
-
-        if (found) {
-            System.out.println("Value " + target + " found at index " + mid);
-        } else {
-            System.out.println("Value " + target + " not found");
-        }
 
 
 
