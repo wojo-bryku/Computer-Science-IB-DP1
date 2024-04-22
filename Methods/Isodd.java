@@ -1,4 +1,5 @@
-// Introduction to methods JAVA
+// Exercise 1: Write a method that reads an integer and checks if it is even or odd.
+
 import java.util.Scanner;
 
 public class Isodd {
@@ -10,9 +11,9 @@ public class Isodd {
         int num = sc.nextInt();
 
        if (isOdd(num)) { //if isOdd is true
-           System.out.println(num + " is an odd number"); //print
+           System.out.println(num + " is an odd number");
        } else { //if isOdd is false
-           System.out.println(num + " is an even number"); //print
+           System.out.println(num + " is an even number");
        }
 
 
