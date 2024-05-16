@@ -19,11 +19,11 @@ public class ExerciseThree{
 			String singleChar = word.substring(i, i + 1);
 			if(i % 2 == 1)
 			{
-				newWord += singleChar + singleChar + singleChar;
+				newWord += singleChar + singleChar + singleChar; //every second letter is tripled
 			}
 			else
 			{
-				newWord += singleChar;
+				newWord += singleChar; //every other letter is not changed
 			}
 		}
 		System.out.println(newWord);
