@@ -15,7 +15,7 @@ public class ExerciseFive {
         boolean result = areAnagrams(str1, str2);
         System.out.println(result);
 
-        sc.close();
+        
         
     }
     public static boolean areAnagrams(String str1, String str2) {

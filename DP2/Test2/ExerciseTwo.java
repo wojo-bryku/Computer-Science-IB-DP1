@@ -12,6 +12,7 @@ public class ExerciseTwo {
 
         System.out.println("Enter a number: ");
         int n = scn.nextInt();
+        
         System.out.println("isPrime: " + isPrime(n));
         System.out.println("Next Prime: " + findNextPrime(n));
         System.out.println("Previous Prime: " + findPreviousPrime(n));

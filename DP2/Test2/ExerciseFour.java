@@ -25,7 +25,6 @@ public class ExerciseFour {
         System.out.println("The index of the value is: ");
         System.out.println(index);
 
-        sc.close();
 
 
 
