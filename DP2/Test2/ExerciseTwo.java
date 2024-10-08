@@ -1,13 +1,8 @@
 package DP2.Test2;
 import java.util.Scanner;
 
-//Write a method that checks whether a number is prime or not. Then, write a program that uses this method to find the first prime number that’s greater than a user specified number and the first one that’s less than a user specified number.
-//Example 1
-//input: Array: [3, 8, 1, 6, 2, 9] Value to find: 6
-//output: 3
-//Example 2
-//input: Array: [7, 4, 5, 11, 14, 19] Value to find: 10
-//output: -1
+
+
 
 public class ExerciseTwo {
     public static void main(String[] args) {
@@ -16,30 +11,32 @@ public class ExerciseTwo {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
-        int number = scn.nextInt();
-        System.out.println("isPrime: " + isPrime(number));
-        System.out.println("Next Prime: " + findNextPrime(number));
-        
+        int n = scn.nextInt();
+        System.out.println("isPrime: " + isPrime(n));
+        System.out.println("Next Prime: " + findNextPrime(n));
+        System.out.println("Previous Prime: " + findPreviousPrime(n));
+
+
 
 
        
         
     }
     //isPrime
-    public static boolean isPrime(int number) {
-        if (number <= 1) {
+    public static boolean isPrime(int n) {
+        if (n <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
                 return false;
             }
         }
         return true;
     }
     //findNextPrime
-    public static int findNextPrime(int number) {
-        int nextPrime = number + 1;
+    public static int findNextPrime(int n) {
+        int nextPrime = n + 1;
         while (true) 
         {
             if (isPrime(nextPrime)) 
@@ -47,6 +44,18 @@ public class ExerciseTwo {
                 return nextPrime;
             }
             nextPrime++;
+        }
+    }
+    //findPreviousPrime
+    public static int findPreviousPrime(int n) {
+        int previousPrime = n - 1;
+        while (true) 
+        {
+            if (isPrime(previousPrime)) 
+            {
+                return previousPrime;
+            }
+            previousPrime--;
         }
     }
 }
